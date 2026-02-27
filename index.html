@@ -312,7 +312,7 @@ function showTip(li, x, y) {
 
   hoverTip.classList.remove("hidden");
 
-  // Position near cursor (with simple bounds)
+  // Position near cursor with simple bounds
   const pad = 12;
   const rect = hoverTip.getBoundingClientRect();
   let left = x + pad;
@@ -375,3 +375,4 @@ historyList.addEventListener("mouseleave", () => {
 </body>
 
 </html>
+
