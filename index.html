@@ -64,22 +64,22 @@
     import { getDatabase, ref, push, set, onValue, query, limitToLast } from "https://www.gstatic.com/firebasejs/10.12.5/firebase-database.js";
 
     // Firebase config
-    const firebaseConfig = {
-        apiKey: "YOUR_OWN",
-        authDomain: "YOUR_OWN",
-        databaseURL: "YOUR_OWN",
-        projectId: "YOUR_OWN",
-        storageBucket: "YOUR_OWN",
-        messagingSenderId: "YOUR_OWN",
-        appId: "YOUR_OWN"
-    };
+   const firebaseConfig = {
+          apiKey: "AIzaSyAOS7qzd9yrHL1Wszd8h_Z8PNzF_0iNnDQ",
+          authDomain: "smartlocate-2baed.firebaseapp.com",
+          databaseURL: "https://smartlocate-2baed-default-rtdb.asia-southeast1.firebasedatabase.app",
+          projectId: "smartlocate-2baed",
+          storageBucket: "smartlocate-2baed.firebasestorage.app",
+          messagingSenderId: "493815075085",
+          appId: "1:493815075085:web:b5cfaabfa1e8bcf314a044"
+   };
 
     const app = initializeApp(firebaseConfig);
     const db = getDatabase(app);
 
     // ---------- Gemini ----------
     //  Gemini API key
-    const API_KEY = "YOUR_OWN";
+    const API_KEY = "AIzaSyCtDzN-TIC46VawQN5GYzmhKxzmlMiTmaY";
 
     // UI helpers
     const btn = document.getElementById("btn");
@@ -375,4 +375,5 @@ historyList.addEventListener("mouseleave", () => {
 </body>
 
 </html>
+
 
